@@ -15,8 +15,8 @@ public class Funcionario {
         double calcularSalario = horastrabalhadas * valorPorHora;
         return calcularSalario;
         }
-    int incrementarHoras(int horastrabalhadas ){
-        int incrementarHoras = horastrabalhadas + 1;
-        return incrementarHoras;
+    int incrementadas(int horasincrementadas ){
+        int incrementadas = horastrabalhadas + horasincrementadas;
+        return incrementadas;
     }
 }
